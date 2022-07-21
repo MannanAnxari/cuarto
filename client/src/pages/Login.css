@@ -1,0 +1,237 @@
+/* .login__bg {
+    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+} */
+
+/* .wrapper {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper form{
+    background-color: #111;
+    color: white!important;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 20%;
+}
+.signup{
+    font-size: 12px;
+} */
+.wrapper {
+    /* overflow: hidden; */
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    border: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+:root {
+    --white: #FFF;
+    --primary: #5693d5;
+    --mainText: #dc3545;
+    --mainBlack: #1f1f1f;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::before,
+body::after {
+    content: "";
+    height: 90vh;
+    width: 30%;
+    position: absolute;
+    z-index: -10;
+}
+
+body::before {
+    top: 0;
+    left: -5rem;
+    background: linear-gradient(to right, #dc3845, #1f1f1f);
+    border-radius: 0 0 16rem 16rem;
+}
+
+body::after {
+    bottom: 0;
+    right: -5rem;
+    background: #8080800d;
+    border-radius: 16rem 16rem 0 0;
+}
+
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background: linear-gradient(to right, #1f1f1f, #dc3845);
+    box-shadow: 20px 20px 20px #dc3845d5, -20px -20px 20px #1f1f1fd5;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    /* Firefox */
+    font-weight: 100;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+}
+
+.wrapper .form-field {
+    border: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 25px;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #9c262c;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+
+
+@media (max-width : 1400px) {
+    html {
+        font-size: 70%;
+    }
+
+}
+
+@media (max-width : 990px) {
+    .chatContainer .row {
+        width: 64% !important;
+    }
+}
+
+@media (max-width : 750px) {
+    .inputBox-Btn {
+        width: 30% !important;
+
+    }
+
+    .inputBox {
+        width: 70% !important;
+    }
+}
+
+
+@media (max-width : 500px) {
+
+    html {
+        font-size: 60% !important;
+    }
+
+    .links-sec {
+        width: 100%;
+        height: 10%;
+    }
+
+    .wrapper {
+        max-width: 300px;
+        margin: 7rem auto;
+        border-radius: 25px;
+    }
+
+    .chatContainer .row {
+        top: 93.5% !important;
+    }
+}
+
+.signup {
+    font-size:
+        12px;
+    color: rgba(255, 255, 255, 0.561);
+}
+
+.signup a {
+    color: white;
+}
+
+.signup a:hover {
+    color: #1f1f1f;
+}

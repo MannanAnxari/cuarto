@@ -1,0 +1,12 @@
+.navContainer .show-links {
+    color: #fff !important;
+}
+
+.profile {
+
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1)!important;
+}
